@@ -1,0 +1,9 @@
+accuracy_test=0.6537313432835821
+accuracy_train=0.7189767086674304
+batch_size=16
+dataset=ph32
+epochs=2
+learning_rate=0.0007
+model=conv_simple
+split=0.8
+timestamp=20170918_14:41:47

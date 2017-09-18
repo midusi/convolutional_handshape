@@ -1,0 +1,18 @@
+class - guideline
+01) middle finger parallel to y axis
+02) middle finger parallel to y axis
+03) index  finger parallel to y axis
+04) thumb  finger parallel to x axis
+05) middle finger parallel to y axis
+06) middle finger parallel to y axis
+07) index  finger parallel to x axis
+08) index  finger parallel to y axis
+09) index  finger parallel to y axis
+10) middle finger parallel to y axis
+11) middle finger parallel to y axis
+12) glove base    parallel to x axis
+13) thumb finger  parallel to y axis
+14) knuckles      parallel to x axis
+15) index finger  parallel to y axis
+16) index finger  parallel to y axis
+
