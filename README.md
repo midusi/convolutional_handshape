@@ -8,7 +8,7 @@ There are two sets of experiments:
 ## Normal experiments
 To run the normal experiments, install the packages listed in `normal_experiments/code/requirements.txt` and either `normal_experiments/code/requirements-tf.txt` or `normal_experiments/code/requirements-tf-gpu.txt`.
 
-Then run `python experiment.py`. You can select the dataset and model, as well as the parameters at the end of that file.
+Then run `python experiment.py` from the folder `normal_experiments/code/`. You edit the file `experiments.py` to  select the dataset and model, as well as the parameters.
 
 ## Transfer experiments
 
