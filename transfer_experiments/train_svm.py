@@ -29,10 +29,10 @@ d.remove_classes_with_few_examples(8)
 train_scores = []
 test_scores = []
 
-for i in range(30):
+for i in range(100):
 	train_d,test_d = d.split_stratified()
 
-	clf = LinearSVC(C=1, loss='squared_hinge', penalty='l2',multi_class='ovr')
+	clf = LinearSVC(C=0.1, loss='squared_hinge', penalty='l2',multi_class='ovr')
 	clf.fit(train_d.x, train_d.y)
 	y_pred = clf.predict(test_d.x)
 	y_train_pred = clf.predict(train_d.x)

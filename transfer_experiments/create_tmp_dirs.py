@@ -18,12 +18,15 @@ def create_dir(images_dir,name):
 		cv2.imwrite(out, img)
 		i += 1
 
+print("Processing LSA dataset...")
 subdirs = [x[0] for x in os.walk(LSA_DIR)]
 for subdir in subdirs[1:]:
+	print("Processing "+subdir)
 	name = subdir.split("lsa32x32/")[1]
 	os.makedirs(TMP_DIR+name)
 	create_dir(subdir+'/',name)
 
+print("Processing RWTH dataset...")
 if not os.path.exists('ph/'):
 	os.makedirs('ph/')
 
